@@ -2,4 +2,6 @@
 var colors=['red','bule','grren','orange','purple','black','yellow'];
 
 
-//s
+//selecting canvas
+
+var canvas=document.getElementById('canvas');
