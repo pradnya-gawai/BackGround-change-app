@@ -8,7 +8,8 @@ function mybg(event) {
 	//preventing default event
 	event.preventDefault();
 	// stroing colors in array
-	 var colors = [ 'red', 'blue', 'green', 'orange', 'purple', 'black', 'yellow','pink'];
+	 var colors = [ 'red', 'blue', 'green', 'orange', 'purple', 
+	 'black', 'yellow','pink','lime','olive','aqua','gold','geenyellow','forestgreen','forestgreen'];
 	 	//use random number function 
 	   var index = parseInt((Math.random()*colors.length)+1);
 	   var index2 = parseInt((Math.random()*colors.length)+1);
